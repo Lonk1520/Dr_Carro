@@ -1,78 +1,57 @@
-/* Custom Properties */
-:root {
-  --main-color: #FFFFFF;
-  --main-modal-color: rgba(240, 219, 79, .5);
-  --second-color: #2B2B2B;
-  --second-modal-color: rgba(43, 43, 43, .5);
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?vm63lm');
+  src:  url('fonts/icomoon.eot?vm63lm#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?vm63lm') format('truetype'),
+    url('fonts/icomoon.woff?vm63lm') format('woff'),
+    url('fonts/icomoon.svg?vm63lm#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
 }
 
-html {
-  box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: var(--second-color);
-  background-color: var(--main-modal-color);
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-*,
-*:after,
-*:before {
-  box-sizing: inherit;
-  padding: 0;
-  margin: 0;
+.icon-home3:before {
+  content: "\e902";
 }
-
-body {
-  margin: 2rem auto;
-  overflow-x: hidden;
-  max-width: 800px;
+.icon-newspaper:before {
+  content: "\e904";
 }
-
-a {
-  font-weight: bold;
-  color: var(--second-color);
-  transition: all .3s ease-out;
+.icon-cart:before {
+  content: "\e93a";
 }
-
-a:hover {
-  color: var(--second-modal-color);
+.icon-user:before {
+  content: "\e971";
 }
-
-p {
-  padding: 1rem;
-  font-size: 1.25rem;
+.icon-stats-bars:before {
+  content: "\e99c";
 }
-
-::selection {
-  background-color: var(--second-color);
-  color: var(--main-color);
+.icon-menu:before {
+  content: "\e9bd";
 }
-
-.Header {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+.icon-exit:before {
+  content: "\ea14";
 }
-
-.Header h1 { word-wrap: break-word; }
-
-.Header img {
-  margin: 0 auto;
-  display: block;
-  max-width: 150px;
-  border-radius: 50%;
+.icon-facebook:before {
+  content: "\ea90";
 }
-
-.Header nav {
-  padding: 2rem 0;
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 3rem;
+.icon-instagram:before {
+  content: "\ea92";
 }
-
-.Main {
-  position: relative;
-  margin: 0 auto;
-  padding-bottom: 56.25%; /* 16:9 */
+.icon-twitter:before {
+  content: "\ea96";
 }
