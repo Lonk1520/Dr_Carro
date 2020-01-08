@@ -8,7 +8,10 @@ const CACHE_NAME = 'v1_cache_Dr.carro',
     'https://use.fontawesome.com/releases/v5.0.7/css/all.css',
     'https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-brands-400.woff2',
     './style.css',
+    './estilos.css'
     './script.js',
+    './menu.js',
+    './menu.css',
     './img/dr.png'
   ]
 
