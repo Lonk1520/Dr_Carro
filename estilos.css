@@ -71,40 +71,18 @@ p {
   font-size: 3rem;
 }
 
-nav#NavPrincipal{
-  width: 100%;
-  margin: .20em auto;
-  max-width: 10000px;
-  background: #9AFE2E;
-}
 
-nav#NavPrincipal ul{
-  overflow: hidden;
-  list-style: none;
-  padding: 0 10.2em;
-}
-
-nav#NavPrincipal > ul {
- display: flex;
- justify-content: center;
-}
-
-nav#NavPrincipal ul li{
-  float: left;
-}
-
-nav#NavPrincipal ul li a{
-  color: #FFFFFF;
-  padding: 1.5em;
-  display: block;
-  text-decoration: none;
-}
-
-nav#NavPrincipal ul li span{
-  margin-right: .5em;
-}
-
-nav#NavPrincipal ul li a:hover{
-  background:   #F0DB4F;
-  border: double;
-}
+.boton_personalizado{
+  border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+  padding: 10px; /*espacio alrededor texto*/
+  background-color: rgba(240, 219, 79, .5);; /*color botón*/
+  color: #ffffff; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  text-transform: uppercase; /*capitalización texto*/
+  font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+  border-radius: 50px; /*bordes redondos*/
+  }
+  .boton_personalizado:hover{
+    color: black;
+    background-color: #81F781;
+  }
