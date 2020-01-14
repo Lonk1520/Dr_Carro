@@ -3,16 +3,18 @@
 <meta charset="UTF-8" />
 
 <head>
-	<link rel="stylesheet" type="text/css" href="css/styleperfil.css" />
+	<link rel="stylesheet" type="text/css" href="css/styleperfil(1).css" />
 	<link rel="stylesheet" type="text/css" href="iconosdrdos/style.css" />
 	
 <link rel="stylesheet" type="text/css" href="iconosdr/style.css">
-	
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 
-	<header>
+	<header id="drcarrer">
 
 <table width="100%"><tr><td width="45%"> 
 
@@ -27,23 +29,136 @@
 </td>
 
 <td width="10%">
-	<span  id="pal" class="icon-palomita"></span>
+	
+	<p>
+        <a href="#" class="btn btn-info btn-lg">
+          <span class="glyphicon glyphicon-ok"></span> Ok 
+        </a>
+      </p> 
 
 	</td></tr></table></header>
+
 <center>
-	<table>
+<br><br>
+
+<article id="per">
+
+	<table id="form">
 		<tr>
-			<td>
-		<br><br><br><br><br>
-		<span id="etiquetas" style="font-family: Palatino Linotype";>Nombre:&nbsp;&nbsp;</span>
+
+
+
+			<td id="tdper">
+		<br><br><br>
+		<span id="etiquetas" style="font-family: Palatino Linotype";>Usuario:&nbsp;&nbsp;</span>
 		<br>
 		<input id="cajas" autofocus type="text" name="nombre_user" >
 			</td>
+
+            <td id="tdper">
+		<br><br><br>
+		<span id="etiquetas" style="font-family: Palatino Linotype";>Edad:&nbsp;&nbsp;</span>
+		<br>
+		<input id="cajas" autofocus type="Number" name="nombre_user" min="1" max="100" value="6" size="0" >
+			</td>
+
+
+
 		</tr>
+
+
+<tr>
+
+
+        <td id="tdper">
+
+		<br><br><br>
+		<span id="etiquetas" style="font-family: Palatino Linotype";>Domicilio:&nbsp;&nbsp;</span>
+		<br>
+		<input id="cajas" autofocus type="text" name="nombre_user" >
+		
+			</td>
+
+
+            <td id="tdper">
+
+		<br><br><br>
+		<span id="etiquetas" style="font-family: Palatino Linotype";>Automovil:&nbsp;&nbsp;</span>
+		<br>
+		<select class="" name="automovil">
+
+		<option value="a">Seleccione el automóvil</option>
+        <option value="b">Versa</option>
+        <option value="c">March</option>
+        <option value="d">Sentra</option>
+        <option value="e">Maxima</option>
+        <option value="f">Note</option>
+
+		</select>
+		
+			</td>
+
+
+
+
+</tr>
+
+
+
+
+
+<tr>
+
+
+	    <td id="tdper">
+		<br><br><br>
+		<span id="etiquetas" style="font-family: Palatino Linotype";>Numero de tel:&nbsp;&nbsp;</span>
+		<br>
+		<input id="cajas" autofocus type="Number" name="nombre_user" >
+			</td>
+
+
+
+            <td id="tdper">
+		<br><br><br>
+
+
+	<span id="etiquetas" style="font-family: Palatino Linotype";>Modelo:&nbsp;&nbsp;</span>
+	<br>
+	<select id="spin" name="Marca">
+
+		<option value="a">Seleccione el modelo</option>
+        <option value="b">Nissan</option>
+        <option value="c">Ford</option>
+        <option value="d">Chevrolet</option>
+        <option value="e">Hyunday</option>
+        <option value="f">Honda</option>
+
+		</select>
+
+			</td>
+	</tr>
+
+<tr>
+     <td>
+<br><br>
+	<span id="etiquetas" style="font-family: Palatino Linotype";>Sexo:&nbsp;&nbsp;</span>
+		<br><br>
+		<input type="radio" name="persona" value="mujer" checked>Mujer<br>
+		<input type="radio" name="persona" value="hombre">Hombre<br>
+
+		<input type="radio" name="persona" value="otro">Otro
+
+
+    </td>
+</tr>
+
 	</table>
+
+	</article>
+
+
 </center>
-
-
 
 
 </body>
