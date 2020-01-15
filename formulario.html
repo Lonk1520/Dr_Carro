@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Dr. Carro</title>
+	<link rel="stylesheet" href="css/boton.css">
+	<link rel="stylesheet" href="css/formularioR.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="font-awesome.css">
+</head>
+<body>
+	<div id="menu">
+		<ul>
+			<li><a href="#" class="activo">Iniciar sesión</a></li>
+			<li><a href="#">Registrarse</a></li>
+		</ul>
+	</div>
+	<div id="formularios">
+		<form action="" id="form-sesion">
+			<p>Correo Electronico:</p>
+			<div class="field-container">
+				<i class="fa fa-envelope-o fa-lg"></i>
+				<input type="text" class="field"> <br>
+			</div>
+
+
+		<p>Contraseña:</p>
+		<div class="field-container">
+		<i class="fa fa-key fa-lg"></i>
+		<input type="text" class="field"><br>
+		</div>
+
+		<p class="center-content"><input type="submit" class="btn btn-green" value="Enviar Datos"></p>
+		</form>
+
+
+
+		<form action="" id="form-registro">
+			<div class="columnas">
+					<div class="field-container">
+						<p>Nombre:</p>
+						<i class="fa fa-user fa-lg"></i>
+						<input type="text" class="field"><br>
+					</div>
+
+				
+					<div class="field-container">
+						<p>Apellido:</p>
+						<i class="fa fa-user fa-lg"></i>
+						<input type="text" class="field"><br>
+					</div>
+			</div>		
+
+				<p>Correo Electronico:</p>
+					<div class="field-container">
+						<i class="fa fa-envelope-o fa-lg"></i>
+						<input type="text" class="field"><br>
+					</div>
+
+				<p>Contraseña:</p>
+					<div class="field-container">
+						<i class="fa fa-key fa-lg"></i>
+						<input type="text" class="field"><br>
+					</div>
+
+			<div class="columnas">
+					<div class="field-container">
+						<p>Marca:</p>
+						<i class="fa fa-truck fa-lg"></i>
+						<input type="text" class="field"><br>
+					</div>
+
+					<div class="field-container">
+						<p>Modelo:</p>
+						<i class="fa fa-truck fa-lg"></i>
+						<input type="text" class="field"> <br>
+					</div>
+
+				
+					<div class="field-container">
+						<p>Telefono:</p>
+						<i class="fa fa-phone fa-lg" ></i>
+						<input type="text" class="field"> <br>
+					</div>
+			</div>		
+
+		<p class="center-content"><input type="submit" class="btn btn-green" value="Enviar Datos"></p>
+		</form>
+	</div>
+	<br><br>
+
+	<p class="center-content"><a href="index.html"  class="btn btn-green" >Inicio</a></p>
+
+	<script src="jquery.js"></script>
+<script>
+		$(function(){
+			$("#menu li").on("click", function(){
+				var i = $(this).index();
+				$("#formularios form").hide();
+				$("#formularios form").eq(i).show();
+				$("#menu li a").removeClass("active");
+				$(this).find("a").addClass("active");
+			});
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+/* Custom Properties */
+:root {
+  --main-color: #FFFFFF;
+  --main-modal-color: rgba(240, 219, 79, .5);
+  --second-color: #2B2B2B;
+  --second-modal-color: rgba(43, 43, 43, .5);
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--second-color);
+  background-color: var(--main-modal-color);
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 2rem auto;
+  overflow-x: hidden;
+  max-width: 800px;
+}
+
+a {
+  font-weight: bold;
+  color: var(--second-color);
+  transition: all .3s ease-out;
+}
+
+a:hover {
+  color: var(--second-modal-color);
+}
+
+p {
+  padding: 1rem;
+  font-size: 1.25rem;
+}
+
+::selection {
+  background-color: var(--second-color);
+  color: var(--main-color);
+}
+
+.Sec {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Sec h1 { word-wrap: break-word; }
+
+.Sec img {
+  margin: 0 auto;
+  display: block;
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+.Sec nav {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 3rem;
+}
+
+
+.boton_personalizado{
+  border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+  padding: 10px; /*espacio alrededor texto*/
+  background-color: rgba(240, 219, 79, .5);; /*color botón*/
+  color: #ffffff; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  text-transform: uppercase; /*capitalización texto*/
+  font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+  border-radius: 50px; /*bordes redondos*/
+  }
+  .boton_personalizado:hover{
+    color: black;
+    background-color: #81F781;
+  }

@@ -1,0 +1,101 @@
+body{
+	font-family: Arial; 
+	background-color: #18A383; 
+	box-sizing: border-box;
+	padding-top: 100px
+}
+		form{
+			margin: 0 auto;
+			background-color: white;
+			width: 350px;
+			padding: 20px;
+			color: #999
+			border-radius: 0 0 3px p3x;
+			font-size: 0.8em;
+		}
+
+		input, textarea{
+			outline: none;
+			border: 0;
+			width: 280px;
+		}
+
+		.field{
+			border: solid 1px #CCC;
+			padding: 10px;
+			width: 240px;
+			border-radius: 0 5px 5px 0; 
+		}
+
+		.field:focus{
+			border-color: #18A383;
+
+		}
+
+		.center-content{
+			text-align: center;
+		}
+
+		.field-container div{
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		.field-container i{
+			border: solid 1px #ccc;
+			padding: 12px 11px 11px 12px;
+			border-radius: 5px 0 0 5px;
+			margin-right: -5px;
+			vertical-align: top;
+			background-color: #ddd;
+			color: #888;
+		}
+
+		.columnas >div{
+			display: inline-block;
+			vertical-align: top;
+			width: 50%;
+			margin-right: -5px;
+		}
+
+		.columnas .field{
+			width: 80px;
+		}
+
+		#menu, #formularios{
+			width: 390px;
+			margin: 0 auto;
+		}
+
+		#menu ul{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		#menu ul li{
+			display: inline-block;
+			width: 50%;
+			margin-right: -4px;
+		}
+
+		#menu ul li a{
+			background-color: #ddd;
+			color: #222;
+			display: block;
+			padding: 28px 28px;
+			text-decoration: none;
+		}
+
+		#menu ul li a:hover{
+			background-color: #eee;
+		}
+
+		.activo{
+			background-color: white !important;
+		}
+
+		#form-registro{
+			display: none;
+		}
+

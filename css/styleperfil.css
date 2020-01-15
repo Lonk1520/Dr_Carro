@@ -1,0 +1,71 @@
+body{
+   width: 100%;
+   height: 100%;
+    background: #FFF;
+   
+}
+
+header#drcarrer{
+	width: 100%;
+	height: 50px;
+	background-color:#81F781;
+}
+
+span#atras{
+font-size: 200%;
+color: #3ADF00;
+}
+
+span#logo{
+	font-size: 200%;
+	color: #3ADF00;
+	margin-left: 8%;
+	transform:scale(0,0);
+   transition-property: transform;
+   transition-duration: 2s;
+}
+span#logo:hover{
+	transform:scale(5.1,5.1);
+}
+
+span#pal{
+	font-size: 200%;
+	color: #3ADF00;
+}
+
+
+#etiquetas{
+	color:#3ADF00 ;
+	font-size: 140%;
+}
+
+input#cajas{
+	border width: 0px;
+	background-color: #FFF;
+	outline: none;
+	
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+
+}
+
+article#per{
+    border-color:#81F781;
+    border-style: inset;
+    border-width: .5em;
+	width: 55%;
+	height:100%;
+}
+
+table#form{
+	width:100%;
+	height: 10%;
+}
+
+td#tdper{
+	margin-top: 0%;
+	position: relative;
+}
