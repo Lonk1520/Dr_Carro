@@ -12,7 +12,11 @@ const CACHE_NAME = 'v1_cache_Dr.carro',
     './script.js',
     './menu.js',
     './menu.css',
-    './img/dr.png'
+    './img/dr.png',
+    'css/boton.css',
+    'css/formularioR.css',
+    'css/font-awesome.min.css',
+    'font-awesome.css'
   ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
