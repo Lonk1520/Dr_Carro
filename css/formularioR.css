@@ -113,8 +113,8 @@ body{
 		form{
 			margin: 0 auto;
 			background-color: white;
-			width: 450px;
-			padding: 20px;
+			width: 480px;
+			padding: 80px;
 			color: #999
 			border-radius: 0 0 3px p3x;
 			font-size: 0.8em;
@@ -123,13 +123,13 @@ body{
 		input, textarea{
 			outline: none;
 			border: 0;
-			width: 300px;
+			width: 380px;
 		}
 
 		.field{
 			border: solid 1px #CCC;
 			padding: 10px;
-			width: 240px;
+			width: 380px;
 			border-radius: 0 5px 5px 0; 
 		}
 
@@ -160,7 +160,7 @@ body{
 		.columnas >div{
 			display: inline-block;
 			vertical-align: top;
-			width: 50%;
+			width: 70%;
 			margin-right: -5px;
 		}
 
@@ -169,7 +169,7 @@ body{
 		}
 
 		#menu, #formularios{
-			width: 390px;
+			width: 640px;
 			margin: 0 auto;
 		}
 
