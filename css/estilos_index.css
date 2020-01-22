@@ -71,16 +71,15 @@ p {
   font-size: 3rem;
 }
 
-
 .boton_personalizado{
-  border: 1px solid #2e518b; /*anchura, estilo y color borde*/
-  padding: 10px; /*espacio alrededor texto*/
-  background-color: rgba(240, 219, 79, .5);; /*color botón*/
-  color: #ffffff; /*color texto*/
-  text-decoration: none; /*decoración texto*/
-  text-transform: uppercase; /*capitalización texto*/
-  font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-  border-radius: 50px; /*bordes redondos*/
+  border: 1px solid #2e518b;
+  padding: 10px; 
+  background-color: rgba(240, 219, 79, .5);; 
+  color: #ffffff; 
+  text-decoration: none; 
+  text-transform: uppercase; 
+  font-family: 'Helvetica', sans-serif; 
+  border-radius: 50px; 
   }
   .boton_personalizado:hover{
     color: black;
@@ -88,5 +87,43 @@ p {
   }
 
 @media screen and (max-width: 1000px){
-  
+  .Sec {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Sec h1 { word-wrap: break-word; }
+
+.Sec img {
+  margin: 0 auto;
+  display: block;
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+.Sec nav {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 3rem;
+}
+
+
+.boton_personalizado{
+  border: 1px solid #2e518b;
+  padding: 5px; 
+  background-color: rgba(240, 219, 79, .5);; 
+  color: #ffffff; 
+  text-decoration: none; 
+  text-transform: uppercase; 
+  font-family: 'Helvetica', sans-serif; 
+  border-radius: 50px; 
+  }
+  .boton_personalizado:hover{
+    color: black;
+    background-color: #81F781;
+  }
+
+
 }
