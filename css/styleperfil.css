@@ -69,3 +69,67 @@ td#tdper{
 	margin-top: 0%;
 	position: relative;
 }
+@media screen and (max-width: 1000px){
+
+	header#drcarrer{
+	width: 100%;
+	height: 120px;
+	background-color:#81F781;
+}
+span#atras{
+font-size: 90px;
+color: #3ADF00;
+}
+
+span#logo{
+	font-size: 90px;
+	color: #3ADF00;
+	margin-left: 8%;
+}
+
+span#pal{
+	font-size: 90px;
+	color: #3ADF00;
+}
+.  btn-info btn-lg{
+	font-size: 40px;
+}
+#etiquetas{
+	color:#3ADF00 ;
+	font-size: 40px;
+}
+
+input#cajas{
+	border width: 0px;
+	background-color: #FFF;
+	outline: none;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	width: 180px;
+
+}
+
+article#per{
+    border-color:#81F781;
+    border-style: inset;
+    border-width: .5em;
+	width: 500px;
+	height:700px;
+}
+
+table#form{
+	width:100%;
+	height: 10%;
+}
+
+td#tdper{
+	margin-top: 0%;
+	position: relative;
+}
+
+
+
+}
