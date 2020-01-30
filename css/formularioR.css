@@ -113,11 +113,12 @@ body{
 		form{
 			margin: 0 auto;
 			background-color: white;
-			width: 480px;
-			padding: 80px;
+			width: 500px;
+
+			padding: 70px;
 			color: #999
 			border-radius: 0 0 3px p3x;
-			font-size: 0.8em;
+			font-size: 1.3em;
 		}
 
 		input, textarea{
@@ -128,7 +129,7 @@ body{
 
 		.field{
 			border: solid 1px #CCC;
-			padding: 10px;
+			padding: 14px;
 			width: 380px;
 			border-radius: 0 5px 5px 0; 
 		}
@@ -160,7 +161,7 @@ body{
 		.columnas >div{
 			display: inline-block;
 			vertical-align: top;
-			width: 70%;
+			width: 70%;	
 			margin-right: -5px;
 		}
 
@@ -191,6 +192,7 @@ body{
 			display: block;
 			padding: 28px 28px;
 			text-decoration: none;
+			font-size: 1.3em;
 		}
 
 		#menu ul li a:hover{
