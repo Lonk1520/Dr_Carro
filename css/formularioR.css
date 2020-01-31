@@ -106,7 +106,7 @@ body{
 		 @media screen and (max-width: 1000px){
 		 body{
 			font-family: Arial; 
-			background-color: #18A383; 
+			background-color: rgba(240, 219, 79, .5); 
 			box-sizing: border-box;
 			padding-top: 100px
 		}
