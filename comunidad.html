@@ -1,61 +1,83 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Dr. Carro</title>
-  <meta name="theme-color" content="#F0DB4F">
-  <meta name="MobileOptimized" content="width">
-  <meta name="HandheldFriendly" content="true">
-  <link rel="shortcut icon" type="image/png" href="./img/dr.png"> 
-  <link rel="manifest" href="./manifest.json">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
-  <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/estilos_index.css">
-  <link rel="stylesheet" href="css/menu.css">
-   <link rel="stylesheet" type="text/css" href="css/animaciones.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://kit.fontawesome.com/a076d05399.js" ></script>
+<meta charset="UTF-8" />
+<link rel="stylesheet" type="text/css" href="css/comunidad.css"/>
+<link rel="stylesheet" type="text/css" href="iconosdrdos/style.css"/>
+<link rel="stylesheet" type="text/css" href="iconosdr/style.css">
+<link rel="stylesheet" type="text/css" href="css/boton.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
+<body id="ajus">
+<header id="drcarrer">
+<table width="100%"><tr><td width="45%"> 
+<a href="index.html"><span id="atras" class="icon-atras"></span></a>
+</td>
+	<td width="50%"> 
+	<span id="logo" class="icon-comunidad"></span>
+	</td>
 
-<body>
-    <input type="checkbox" id="check">
-    <label for="check">
-      <i class="fas fa-bars" id="btn"></i>
-      <i class="fas fa-times" id="cancel"></i>
-    </label>
-    <div class="sidebar">
-    <header>Menu</header>
-  <ul>
-	<li><a href="index.html"><i class="fa fa-home"></i>Inicio</a></li>    
-    <li><a href="#"><i class="fa fa-address-card"></i>Perfil</a></li>
-    <li><a href="#"><i class="fa fa-book"></i>Diagnostico</a></li>
-    <li><a href="#"><i class="  fa fa-cogs"></i>Ajustes</a></li>    
-  </ul>
-</div>    
+<td width="10%">
+	<p>
+        <a href="#" class="btn btn-info btn-lg">
+          <span class="glyphicon glyphicon-ok"></span> Ok 
+        </a>
+      </p> 
 
-  <section class="Sec">
-    <h1>Dr. Carro</h1>
-    <img src="./img/dr.png" alt="DR.CARRO">
-    <br><br>
+	</td></tr></table></header>
 
-    <a class="boton_personalizado" href="#">Comenzar Diagnostico</a>
+<center>
+	<br><br>
 
-  <footer>
-        <nav id="Redes">
-      <a href="https://facebook.com/" target="_blank" title="Facebook">
-        <i class="fab fa-facebook"></i>
-      </a>
-      <a href="https://www.instagram.com/" target="_blank" title="Instagram">
-        <i class="fab fa-instagram"></i>
-      </a>
-    </nav>
-  </footer>  
-  </section>
-  <script src="./script.js"></script>
-  <script src="./menu.js"></script>
+<article id="per">
+	<table id="form">
+		<tr>
+			<td id="tdper">
+				<br><br>
+				<span id="etiquetas" style="font-family: Palatino Linotype" style="font-size: 1.3em" ;>¿Cual es la marca de tu automovil?&nbsp;&nbsp;</span>	
+				<br>
+				<select class="" name="automovil">
+					<option value="a">Seleccione el automóvil</option>
+			        <option value="b">Versa</option>
+			        <option value="c">March</option>
+			        <option value="d">Sentra</option>
+			        <option value="e">Maxima</option>
+			        <option value="f">Note</option>
+				</select>				
+			</td>
+		</tr>
+
+		<br><br>
+
+		<tr>
+			<td id="tdper">
+				<br><br>
+				<span id="etiquetas" style="font-family: Palatino Linotype";>¿Cual es el modelo de tu automovil?&nbsp;&nbsp;</span>	
+				<br>
+				<select class="" name="Marca">
+					<option value="a">Seleccione el modelo</option>
+			        <option value="b">Nissan</option>
+			        <option value="c">Ford</option>
+			        <option value="d">Chevrolet</option>
+			        <option value="e">Hyunday</option>
+			        <option value="f">Honda</option>
+				</select>				
+			</td>
+		</tr>
+
+		<br><br>
+
+		<tr>
+			<td>
+				<br><br>
+				<p class="center-content"><input type="submit" class="btn btn-green" value="Enviar Datos"></p>
+			</td>	
+		</tr>				
+	</table>	
+</article>
+</center>
 </body>
-
 </html>
