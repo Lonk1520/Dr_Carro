@@ -1,4 +1,4 @@
-	body{
+body{
 	width: 100%;
 	height: 100%;
     background-color: rgba(240, 219, 79, .5);	
@@ -71,13 +71,79 @@ td#tdper{
 
 
 
-
-
-
-
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 675px){
 header#drcarrer{
 	width: 100%;
+	height: 90px;
+	background-color:#81F781;
+}
+span#atras{
+font-size: 70px;
+color: #3ADF00;
+}
+
+span#logo{
+	font-size: 70px;
+	color: #3ADF00;
+	margin-left: 8%;
+}
+
+span#pal{
+	font-size: 150px;
+	color: #3ADF00;
+}
+.btn-info{
+	font-size: 300px;
+	width: 100px;
+	height: 90px;
+}
+.btn-lg{
+	margin: 0;
+}
+#etiquetas{
+	color:#3ADF00 ;
+	font-size: 30px;
+}
+
+input#cajas{
+	border width: 0px;
+	background-color: #FFF;
+	outline: none;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	height: 40px;
+	width: 90px;
+
+}
+
+article#per{
+    border-color:#81F781;
+    border-style: inset;
+    border-width: .5em;
+	width: 500px;
+	height:700px;
+}
+
+table#form{
+	width:100%;
+	height: 10%;
+}
+
+td#tdper{
+	margin-top: 0%;
+	position: relative;
+}
+
+
+
+
+
+@media screen and (max-width: 450px){
+header#drcarrer{
+	width: 110%;
 	height: 120px;
 	background-color:#81F781;
 }
