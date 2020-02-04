@@ -32,86 +32,57 @@
 <br><br>
 
 <article id="per">
-	<table id="form">
-		<tr>
-			<td id="tdper">
-		<br><br><br>
-		<span id="etiquetas" style="font-family: Palatino Linotype";>Usuario:&nbsp;&nbsp;</span>
-		<br>
-		<input id="cajas" autofocus type="text" name="nombre_user" >
-			</td>
+	<table id="form" class="table table-condensed">
+                    <tbody>
+                      <tr>
+                        <td class="etiquetas">Usuario:</td>
+                        <td><input type="text" class="cajas" name="nombre_apellido"></td>
+                      </tr>
+                      <tr>
+                        <td class="etiquetas">Edad:</td>
+                        <td><input type="text" class="cajas" name="ocupacion" ></td>
+                      </tr>
+                      <tr>
+                        <td class="etiquetas">Domicilio:</td>	
+                        <td><input type="email" class="cajas" name="correo"></td>
+                      </tr>
+					  <tr>
+                        <td class="etiquetas">Automovil:</td>
+                        <td><select class="etiquetas" name="automovil">
+								<option value="a">Seleccione el automóvil</option>
+			        			<option value="b">Versa</option>
+			        			<option value="c">March</option>
+			        			<option value="d">Sentra</option>
+			        			<option value="e">Maxima</option>
+			        			<option value="f">Note</option>
+					</select></td>
+                        	
+                      </tr>
 
-            <td id="tdper">
-		<br><br><br>
-		<span id="etiquetas" style="font-family: Palatino Linotype";>Edad:&nbsp;&nbsp;</span>
-		<br>
-		<input id="cajas" autofocus type="Number" name="nombre_user" min="1" max="100" value="6" size="0" >
-			</td>
-		</tr>
-<tr>
-        <td id="tdper">
+                      <tr>
+                        <td>Telefono:</td>
+                        <td><input type="text" class="cajas" required name="salario"></td>
+                      </tr>
 
-		<br><br><br>
-
-		<span id="etiquetas" style="font-family: Palatino Linotype";>Domicilio:&nbsp;&nbsp;</span>
-		<br>
-
-		<input id="cajas" autofocus type="text" name="nombre_user" >	
-			</td>
-            <td id="tdper">
-
-		<br><br><br>
-
-		<span id="etiquetas" style="font-family: Palatino Linotype";>Automovil:&nbsp;&nbsp;</span>
-		
-		<br>
-		
-		<select class="" name="automovil">
-		<option value="a">Seleccione el automóvil</option>
-        <option value="b">Versa</option>
-        <option value="c">March</option>
-        <option value="d">Sentra</option>
-        <option value="e">Maxima</option>
-        <option value="f">Note</option>
-		</select>
-			</td>
-</tr>
-
-<tr>
-	    <td id="tdper">
-		<br><br><br>
-		<span id="etiquetas" style="font-family: Palatino Linotype";>Numero de tel:&nbsp;&nbsp;</span>
-		<br>
-		<input id="cajas" autofocus type="Number" name="nombre_user" >
-			</td>
-            <td id="tdper">
-		<br><br><br>
-
-	<span id="etiquetas" style="font-family: Palatino Linotype";>Modelo:&nbsp;&nbsp;</span>
-	<br>
-
-	<select id="spin" name="Marca">
-		<option value="a">Seleccione el modelo</option>
-        <option value="b">Nissan</option>
-        <option value="c">Ford</option>
-        <option value="d">Chevrolet</option>
-        <option value="e">Hyunday</option>
-        <option value="f">Honda</option>
-		</select>
-			</td>
-	</tr>
-<tr>
-     <td>
-
-<br><br>
-
-	<span id="etiquetas" style="font-family: Palatino Linotype";>Sexo:&nbsp;&nbsp;</span>
-		<br><br>
-		<input type="radio" name="persona" value="mujer" checked>Mujer<br>
-		<input type="radio" name="persona" value="hombre">Hombre<br>
-		<input type="radio" name="persona" value="otro">Otro
-    </td>
-</tr>
+					  <tr>
+	                      <td>Modelo:</td>
+	                      <td><select id="spin" name="Marca">
+								<option value="a">Seleccione el modelo</option>
+	        					<option value="b">Nissan</option>
+	        					<option value="c">Ford</option>
+	        					<option value="d">Chevrolet</option>
+	        					<option value="e">Hyunday</option>
+	        					<option value="f">Honda</option>
+							</select></td>
+                      </tr>
+					  <tr>
+                        <td>Sexo:</td>
+                        <td><input type="radio" name="persona" value="mujer" checked>Mujer<br>
+							<input type="radio" name="persona" value="hombre">Hombre<br>
+							<input type="radio" name="persona" value="otro">Otro</td>
+                      </tr>
+					  <tr>                   
+                    </tbody>
 	</table>
 	</article>
 </center>
