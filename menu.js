@@ -1,8 +1,24 @@
-// sidebar toggle
-const btnToggle = document.querySelector('.toggle-btn');
+$(document).ready(main);
 
-btnToggle.addEventListener('click', function () {
-  console.log('clik')
-  document.getElementById('sidebar').classList.toggle('active');
-  console.log(document.getElementById('sidebar'))
-});
+var contador = 1;
+
+function main(){
+ $('.btn-menu').click(function(){
+  //$('nav').toggle();
+ 
+ if(contador==1){
+  $('nav').animate({
+   left:'0'
+  });
+  contador=0;
+ } else {
+  
+  $('nav').animate({
+   left:'-100%'
+  });
+  contador=1;
+ }
+  
+ });
+ 
+}

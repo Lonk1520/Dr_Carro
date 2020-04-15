@@ -1,74 +1,38 @@
-/* Custom Properties */
-:root {
-  --main-color: #FFFFFF;
-  --main-modal-color: rgba(240, 219, 79, .5);
-  --second-color: #2B2B2B;
-  --second-modal-color: rgba(43, 43, 43, .5);
-}
-
-html {
-  box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: var(--second-color);
-  background-color: var(--main-modal-color);
-}
-
-*,
-*:after,
-*:before {
-  box-sizing: inherit;
-  padding: 0;
+*{
   margin: 0;
+  padding: 0;
+  -webkit- box-sizing: border-box;
+  -moz- box-sizing: border-box;
+  box-sizing: border-box;
+}
+*{
+  margin: 0;
+  padding: 0;
+  -webkit- box-sizing: border-box;
+  -moz- box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+  background-color: #59D9A1;
+  font-size: 1em; 
+  font-family: arial;
 }
 
-body {
-  margin: 2rem auto;
-  overflow-x: hidden;
-  max-width: 800px;
-}
-
-a {
-  font-weight: bold;
-  color: var(--second-color);
-  transition: all .3s ease-out;
-}
-
-a:hover {
-  color: var(--second-modal-color);
-}
-
-p {
-  padding: 1rem;
-  font-size: 1.25rem;
-}
-
-::selection {
-  background-color: var(--second-color);
-  color: var(--main-color);
-}
-
+ 
 .Sec {
   display: flex;
   flex-direction: column;
   text-align: center;
+  background-color: #59D9A1;
 }
 
-.Sec h1 { word-wrap: break-word; }
 
 .Sec img {
   margin: 0 auto;
   display: block;
-  max-width: 150px;
+  max-width: 220px;
   border-radius: 50%;
-}
-
-.Sec nav {
-  padding: 2rem 0;
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 3rem;
+  background-color:  rgba(240, 219, 79, .5);
 }
 
 .boton_personalizado{
@@ -76,6 +40,7 @@ p {
   padding: 10px; 
   background-color: rgba(240, 219, 79, .5);; 
   color: #ffffff; 
+  width: 25%;
   text-decoration: none; 
   text-transform: uppercase; 
   font-family: 'Helvetica', sans-serif; 
@@ -86,28 +51,22 @@ p {
     background-color: #81F781;
   }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 700px){
   .Sec {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-.Sec h1 { word-wrap: break-word; }
 
 .Sec img {
   margin: 0 auto;
   display: block;
-  max-width: 150px;
+  max-width: 250px;
   border-radius: 50%;
+  background-color:  rgba(240, 219, 79, .5);
 }
 
-.Sec nav {
-  padding: 2rem 0;
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 3rem;
-}
 
 
 .boton_personalizado{
@@ -115,10 +74,13 @@ p {
   padding: 5px; 
   background-color: rgba(240, 219, 79, .5);; 
   color: #ffffff; 
+  width: 60%;
   text-decoration: none; 
   text-transform: uppercase; 
   font-family: 'Helvetica', sans-serif; 
   border-radius: 50px; 
+  margin-top: 40%;
+
   }
   .boton_personalizado:hover{
     color: black;

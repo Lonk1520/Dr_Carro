@@ -3,14 +3,9 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Dr. Carro</title>
-  <meta name="theme-color" content="#F0DB4F">
   <meta name="MobileOptimized" content="width">
-  <meta name="HandheldFriendly" content="true">
   <link rel="shortcut icon" type="image/png" href="./img/dr.png"> 
-  <link rel="manifest" href="./manifest.json">
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="css/estilos_index.css">
@@ -18,18 +13,18 @@
   <link rel="stylesheet" href="css/all.css">
   <link rel="stylesheet" type="text/css" href="css/boton.css">
   <link rel="stylesheet" type="text/css" href="css/animaciones.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://kit.fontawesome.com/a076d05399.js" ></script>
 </head>
+<header>
+  
+</header>
 <body>
-    <input type="checkbox" id="check">
-    <label for="check">
-      <i class="fas fa-bars" id="btn"></i>
-      <i class="fas fa-times" id="cancel"></i>
-    </label>
-    <div class="sidebar">
-    <header>Menu</header>
-  <ul>
+    <div  class="Menu_barras">
+   <a title="Menu" href="#" class="btn-menu"><span class="fas fa-bars"></span></a>
+    </div>
+    <nav id="NavPrincipal">
+      <ul>
     <li><a href="perfil.html"><i class="fa fa-address-card"></i>Perfil</a></li>
     <li><a href="#"><i class="fa fa-book"></i>Diagnostico</a></li>
     <li><a href="comunidad.html"><i class="fa fa-users"></i>Comunidad</a></li>
@@ -40,16 +35,20 @@
   </ul>
       
       
-</div>    
+</nav>    
 
+<br><br><br>
   <section class="Sec">
     <img src="./img/dr.png"  alt="DR.CARRO">
-    <br><br>
+    <br><br><br>
 
-    <a class="boton_personalizado" href="#">Comenzar Diagnostico</a>  
+    <center>
+    <button  class="boton_personalizado" id="login" onclick="tra()">Iniciar Diagnostico</button>
+    </center>
+
   </section>
-  <script src="./script.js"></script>
   <script src="./menu.js"></script>
+
 </body>
 
 </html>

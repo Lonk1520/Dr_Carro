@@ -15,6 +15,11 @@ font-size: 200%;
 color: #3ADF00;
 }
 
+span#atras:hover{
+color: rgba(240, 219, 79, .5);
+}
+
+
 span#logo{
 	font-size: 200%;
 	color: #3ADF00;
@@ -24,9 +29,8 @@ span#logo{
     transition-duration: 2s;
 }
 span#logo:hover{
-	transform:scale(5.1,5.1);
+	color: rgba(240, 219, 79, .5);
 }
-
 span#pal{
 	font-size: 200%;
 	color: #3ADF00;

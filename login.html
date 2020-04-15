@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina rapida</title>
+</head>
+<body>
+    <h1>Inicia sesión</h1>
+    <button id="login" onclick="jala()">Inicia con Google</button>
+
+    <div id="root"></div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+
+
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCPS18ecZFmUuxgHxjhCjcTVxei7Vcpup8",
+    authDomain: "dr-carro-17dc8.firebaseapp.com",
+    databaseURL: "https://dr-carro-17dc8.firebaseio.com",
+    projectId: "dr-carro-17dc8",
+    storageBucket: "dr-carro-17dc8.appspot.com",
+    messagingSenderId: "786618803451",
+    appId: "1:786618803451:web:2c303d0966e2dc9b57bc5e",
+    measurementId: "G-KC69ZPD6DN"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+    <script src="app.js"></script>
+</body>
+</html>
