@@ -1,93 +1,85 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Dr. Carro</title>
 <meta charset="UTF-8" />
 <link rel="stylesheet" type="text/css" href="css/styleperfil.css" />
 <link rel="stylesheet" type="text/css" href="iconosdrdos/style.css" />	
 <link rel="stylesheet" type="text/css" href="iconosdr/style.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/animaciones.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-
 <body>
-<header id="drcarrer">
-<table width="100%"><tr><td width="45%"> 
-<a href="index.html"><span id="atras" class="icon-atras"></span></a>
-</td>
-	<td width="50%"> 
-	<span id="logo" class="icon-perfil"></span>
-</td>
+	<nav id="drcarrer">
+		<table id="tab">
+			<tr>
+				<td id="tdat">
+					<a href="index.html"><span id="atras" class="icon-atras"></span></a>
+				</td>
+				<td id="tdico">
+					<span id="logo" class="icon-perfil"></span>
+				</td>
+				<td id="tdok">
+					<p><a href="#" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-ok"></span> Ok </a></p>
+				</td>
+			</tr>
+			
+		</table>
+		
+	</nav>
 
-<td width="10%">	
-	<p>
-        <a href="#" class="btn btn-info btn-lg">
-          <span class="glyphicon glyphicon-ok"></span> Ok 
-        </a>
-      </p> 
-
-	</td></tr></table></header>
-<center>
-<br><br>
-
-<article id="per">
-	<table id="form" class="table table-condensed">
-                    <tbody>
-                      <tr>
-                        <td class="etiquetas">Usuario:</td>
-                        <td><input type="text" class="cajas" name="nombre_apellido"></td>
-                      </tr>
-                      <tr>
-                        <td class="etiquetas">Edad:</td>
-                        <td><input type="text" class="cajas" name="ocupacion" ></td>
-                      </tr>
-                      <tr>
-                        <td class="etiquetas">Domicilio:</td>	
-                        <td><input type="email" class="cajas" name="correo"></td>
-                      </tr>
-					  <tr>
-                        <td class="etiquetas">Automovil:</td>
-                        <td><select class="etiquetas" name="automovil">
-								<option value="a">Seleccione el automóvil</option>
-			        			<option value="b">Versa</option>
-			        			<option value="c">March</option>
-			        			<option value="d">Sentra</option>
-			        			<option value="e">Maxima</option>
-			        			<option value="f">Note</option>
+	<center>
+		<article id="per">
+			<table id="form">
+				<tr>
+					<td class="etiquetas">Usuario: </td>
+					<td><input type="text" class="cajas" name="nombre_apellido"></td>
+				</tr>
+				<tr>
+					<td class="etiquetas">Edad:</td>
+                    <td><input type="text" class="cajas" name="ocupacion" ></td>
+				</tr>
+				<tr>
+					<td class="etiquetas">Domicilio:</td>	
+                    <td><input type="email" class="cajas" name="correo"></td>
+				</tr>
+				<tr>
+					<td class="etiquetas">Automovil:</td>
+                    <td><select class="etiquetas" name="automovil">
+							<option value="a">Seleccione el automóvil</option>
+			       			<option value="b">Versa</option>
+			       			<option value="c">March</option>
+			       			<option value="d">Sentra</option>
+			       			<option value="e">Maxima</option>
+		        			<option value="f">Note</option>
 					</select></td>
-                        	
-                      </tr>
-
-                      <tr>
-                        <td>Telefono:</td>
-                        <td><input type="text" class="cajas" required name="salario"></td>
-                      </tr>
-
-					  <tr>
-	                      <td>Modelo:</td>
-	                      <td><select id="spin" name="Marca">
-								<option value="a">Seleccione el modelo</option>
-	        					<option value="b">Nissan</option>
-	        					<option value="c">Ford</option>
-	        					<option value="d">Chevrolet</option>
-	        					<option value="e">Hyunday</option>
-	        					<option value="f">Honda</option>
+				</tr>
+				<tr>
+                    <td>Telefono:</td>
+                    <td><input type="text" class="cajas" required name="salario"></td>
+                </tr>
+                <tr>
+	                <td>Modelo:</td>
+	                <td><select id="spin" name="Marca">
+							<option value="a">Seleccione el modelo</option>
+	       					<option value="b">Nissan</option>
+	       					<option value="c">Ford</option>
+	       					<option value="d">Chevrolet</option>
+	       					<option value="e">Hyunday</option>
+	       					<option value="f">Honda</option>
 							</select></td>
-                      </tr>
-					  <tr>
-                        <td>Sexo:</td>
-                        <td><input type="radio" name="persona" value="mujer" checked>Mujer<br>
-							<input type="radio" name="persona" value="hombre">Hombre<br>
-							<input type="radio" name="persona" value="otro">Otro</td>
-                      </tr>
-					  <tr>                   
-                    </tbody>
-	</table>
-	</article>
-</center>
+                </tr>
+                <tr>
+                    <td>Sexo:</td>
+                    <td><input type="radio" name="persona" value="mujer" checked>Mujer<br>
+					<input type="radio" name="persona" value="hombre">Hombre<br>
+					<input type="radio" name="persona" value="otro">Otro</td>
+                </tr>
+                <tr>               
+			</table>
+		</article>
+	</center>
 
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="menu.js"></script>
-</body>	
+</body>
 </html>

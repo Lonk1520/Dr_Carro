@@ -40,14 +40,165 @@
 <br><br><br>
   <section class="Sec">
     <img src="./img/dr.png"  alt="DR.CARRO">
-    <br><br><br>
 
-    <center>
-    <button  class="boton_personalizado" id="login" onclick="tra()">Iniciar Diagnostico</button>
-    </center>
 
   </section>
-  <script src="./menu.js"></script>
+
+  <br><br><br>
+
+  <center>
+  <button  class="boton_personalizado" id="login" onclick="inicio()">Iniciar Diagnostico</button>
+  </center>
+
+  <div id="mostrarOcultar" style="width:1100px; height: 100px;">
+    <h1 id="preguntas">¿Cúal es la marca de tu automovil?</h1>
+    
+
+    <br>
+      
+
+
+
+
+            <input type="checkbox" name="Ford" id="ford">
+                    <label for="ford">&nbsp&nbsp&nbspFord</label>
+
+          <br><br>
+
+            <input type="checkbox" name="Chevrolet" id="chevrolet">
+            <label for="chevrolet">&nbsp&nbsp&nbspChevrolet</label>
+
+          <br><br>
+
+            <input type="checkbox" name="Nissan" id="nissan">
+            <label for="nissan">&nbsp&nbsp&nbspNissan</label>
+
+          <br><br>
+     
+
+
+
+  </div>
+
+<br>
+
+  <input type="submit"  value="Siguiente" id="sig" onclick="siguiente();">
+
+
+<div id="Elquesigue" style="width:1100px; height: 100px;">
+
+<h1 id="preguntas">¿Elige alguna de las opciones?</h1>
+
+<br>
+      
+
+
+
+
+            <input type="checkbox" name="Ford" id="piter">
+                    <label for="piter">&nbsp&nbsp&nbsppiter</label>
+
+          <br><br>
+
+            <input type="checkbox" name="Chevrolet" id="juan">
+            <label for="juan">&nbsp&nbsp&nbspjuan</label>
+
+          <br><br>
+
+            <input type="checkbox" name="Nissan" id="drchaver">
+            <label for="drchaver">&nbsp&nbsp&nbspDrchaver</label>
+
+          <br><br>
+
+
+</div>
+
+
+<table id="botones1">
+        <tr>
+          <td width="50%">
+            <input type="submit" value="Anterior"  id="antedos"  onclick="anteriordos();">
+          </td>
+          <td width="50%">
+            <input type="submit"  value="Siguiente" id="sigdos" onclick="siguientedos();">
+          </td>
+        </tr>
+       </table>
+
+
+
+
+
+<div id="tres" style="width:1100px; height: 100px;">
+
+<h1 id="preguntas">¿Cual opcion se hacerca mas a la falla?</h1>
+
+               <input type="checkbox" name="Ford" id="cuak">
+                    <label for="cuak">&nbsp&nbsp&nbspcuak</label>
+
+          <br><br>
+
+            <input type="checkbox" name="Chevrolet" id="creddy">
+            <label for="creddy">&nbsp&nbsp&nbspcreddy</label>
+
+          <br><br>
+
+            <input type="checkbox" name="Nissan" id="gargo">
+            <label for="gargo">&nbsp&nbsp&nbspgargo</label>
+
+          <br><br>
+</div>
+
+
+<table id="botones2">
+        <tr>
+          <td>
+            <input type="submit" value="Anterior"  id="antetres"  onclick="anteriortres();">
+          </td>
+          <td>
+            <input type="submit"  value="Siguiente" id="sigtres" onclick="siguientetres();">
+          </td>
+        </tr>
+       </table>
+
+
+<div id="cuatro" style="width:1100px; height: 100px;">
+
+<h1 id="preguntas" >¿Tu automovil presenta algunas de estas fallas?</h1>
+
+<input type="checkbox" name="Ford" id="ptm">
+                    <label for="ptm">&nbsp&nbsp&nbspptm</label>
+
+          <br><br>
+
+            <input type="checkbox" name="Chevrolet" id="csm">
+            <label for="csm">&nbsp&nbsp&nbspcsm</label>
+
+          <br><br>
+
+            <input type="checkbox" name="Nissan" id="creddyjuan">
+            <label for="creddyjuan">&nbsp&nbsp&nbspcreddyjuan</label>
+
+          <br><br>
+
+
+</div>
+<br>
+<table id="botones3">
+        <tr>
+          <td>
+            <input type="submit" value="Anterior"  id="antecuatro"  onclick="anteriorcuatro();">
+          </td>
+          <td>
+            <input type="submit"  value="Siguiente" id="sigcuatro" onclick="siguientecuatro();">
+          </td>
+        </tr>
+       </table>
+
+
+<script type="text/javascript"src="inicio.js"></script>
+
+<script src="./menu.js"></script>
 
 </body>
 
